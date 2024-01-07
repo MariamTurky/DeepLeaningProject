@@ -12,7 +12,7 @@ The dataset comprises approximately 5000 logs of user inputs, including keystrok
 
 ## Model Architecture 
 
-The model is constructed using a Transformer.
+The model is constructed using LSTM and Transformer.
 
 
 ## Dependencies 
@@ -22,7 +22,10 @@ The model is constructed using a Transformer.
 - matplotlib
 - seaborn
 - scikit-learn
+- Tensorflow
+- Keras-nlp
 
 ## Results 
 
-- Mean Squared Error : 0.0257
+- Mean Squared Error for Transformer after 80 epochs : 0.0257
+- Mean Squared Error for LSTM after 200 epochs :  0.0143
